@@ -24,3 +24,6 @@ jobs:
 
       - name: Run API tests
         run: npx playwright test
+
+      - name: Run Cucumber tests
+        run: npx cucumber-js
