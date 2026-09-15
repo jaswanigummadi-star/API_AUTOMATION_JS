@@ -9,3 +9,5 @@ test('GET API test', async ({ request }) => {
 
     expect(response.status()).toBe(200);
 });
+
+// API automation practice
